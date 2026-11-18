@@ -48,6 +48,8 @@ No fake testimonials, customer logos, statistics, "trusted by", awards, certific
 
 `pnpm build` produces `out/`. Upload it to any static host (Cloudflare Pages, Netlify, S3 plus a CDN, nginx). Folder URLs such as `/features/` map to `out/features/index.html`; `404.html` is the not-found page.
 
+**Cloudflare Workers (Git integration).** `wrangler.jsonc` serves `out/` as static assets (with `out/_headers` and `404.html`). Build command `pnpm run build`, deploy command `npx wrangler deploy`. Without this file wrangler guesses "Next.js" and tries to install OpenNext, which fails.
+
 **Security headers.** A static export cannot set HTTP headers, and a CSP in a `<meta>` tag cannot express `frame-ancestors` and would need the hashes to change each build. So:
 
 - `scripts/csp-headers.mjs` runs after `next build` and writes `out/_headers` (Netlify and Cloudflare Pages format): one rule per page with a strict CSP listing the SHA-256 hash of each inline script Next.js emits on that page, no `unsafe-inline`, no external origins, plus `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy` and `Permissions-Policy`. Per-page rules keep each header line under host length limits.
