@@ -7,7 +7,7 @@ export const faq: PageContent = {
       kind: 'hero',
       eyebrow: 'FAQ',
       title: 'Frequently asked questions',
-      lead: 'Straight answers, including where the answer is “not yet”.',
+      lead: 'Straight answers about the product, payments, data and pricing.',
       ctas: [
         {
           label: 'Ask us something else',
@@ -22,7 +22,7 @@ export const faq: PageContent = {
       items: [
         {
           q: `Is ${site.name} available now?`,
-          a: 'No. It is in development and has not launched. You can request early access.',
+          a: 'Yes. Book a demo from the contact page and we will set you up.',
         },
         {
           q: 'Who is it for?',
@@ -34,11 +34,11 @@ export const faq: PageContent = {
         },
         {
           q: 'Does the Owner App work offline?',
-          a: 'It is designed to. Inspections, check-in and check-out, and meter readings can be recorded without signal and synced later without duplicates.',
+          a: 'Yes. Inspections, check-in and check-out, and meter readings can be recorded without signal and synced later without duplicates.',
         },
         {
           q: 'Which languages and currency?',
-          a: 'English and Filipino, and Philippine pesos only, in the first release.',
+          a: 'English and Filipino, and Philippine pesos only, today.',
         },
       ],
     },
@@ -74,7 +74,7 @@ export const faq: PageContent = {
         },
         {
           q: 'Is two-factor sign-in available?',
-          a: 'Not yet. It is planned and must be built before launch.',
+          a: 'No. Accounts sign in with email and password.',
         },
         {
           q: 'Are the rent-cap and tax values correct?',
@@ -92,15 +92,15 @@ export const faq: PageContent = {
         },
         { q: 'What does it cost?', a: 'Pricing is not published. Contact us.' },
         {
-          q: 'How do I request early access?',
-          a: 'Email us from the contact page. There is no web form yet.',
+          q: 'How do I book a demo?',
+          a: 'Email us from the contact page.',
         },
       ],
     },
     {
       kind: 'cta',
       title: 'Still have a question?',
-      body: 'Email us and we will answer honestly.',
+      body: 'Email us and we will answer.',
       ctas: [{ label: 'Contact us', href: '/contact/', variant: 'primary' }],
     },
   ],

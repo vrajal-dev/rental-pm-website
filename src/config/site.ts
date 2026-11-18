@@ -10,7 +10,7 @@ export const site = {
   tagline:
     'Rental management for Philippine dormitories, apartments and short stays',
   description:
-    'Software for dormitories, apartments and short-stay operators in the Philippines: bookings without double booking, manual payment verification, billing, inspections and books. In development.',
+    'Software for dormitories, apartments and short-stay operators in the Philippines: bookings without double booking, manual payment verification, billing, inspections and books.',
   // PLACEHOLDER: the domain is NOT chosen or verified. example.com is reserved
   // for documentation. Set the real production URL once a domain is secured.
   url: 'https://www.example.com',

@@ -6,7 +6,7 @@ export const security: PageContent = {
       kind: 'hero',
       eyebrow: 'Security',
       title: 'Security designed in, described plainly.',
-      lead: 'This page lists controls the platform is designed with and that exist in its code today. It is not an audit report, and it does not promise compliance sign-off. Counsel and security review are still pending.',
+      lead: 'This page lists the controls the platform has today. It is not an audit report, and it does not promise compliance sign-off.',
       ctas: [
         {
           label: 'Ask a security question',
@@ -96,11 +96,11 @@ export const security: PageContent = {
     },
     {
       kind: 'callout',
-      title: 'What is not done yet',
+      title: 'What is not included',
       body: [
-        'Two-factor sign-in is planned and is not built yet. Until it is, accounts sign in with email and password only. It is required to be built and switched on before launch for platform, partner and owner accounts.',
+        'Two-factor sign-in is not available. Accounts sign in with email and password only.',
         'Google and Apple sign-in, and mobile one-time passcodes, are not built either.',
-        'No penetration test, independent audit or legal review has been completed. A penetration test, a backup restore test and counsel review are planned before launch.',
+        'No independent audit or legal compliance sign-off is claimed.',
       ],
       tone: 'warning',
     },
@@ -118,7 +118,7 @@ export const security: PageContent = {
     {
       kind: 'cta',
       title: 'Have a security or privacy question?',
-      body: 'Email us. We will answer honestly, including when the answer is not yet.',
+      body: 'Email us and we will answer.',
       ctas: [{ label: 'Contact us', href: '/contact/', variant: 'primary' }],
     },
   ],

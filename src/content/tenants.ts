@@ -6,10 +6,10 @@ export const forTenants: PageContent = {
       kind: 'hero',
       eyebrow: 'For tenants',
       title: 'Your rentals, payments and requests in one app.',
-      lead: 'The Tenant App is being built for renters in the Philippines. Book, pay by proof, sign, ask for repairs and message your landlord from your phone.',
+      lead: 'The Tenant App is for renters in the Philippines. Book, pay by proof, sign, ask for repairs and message your landlord from your phone.',
       ctas: [
         {
-          label: 'Request early access',
+          label: 'Book a demo',
           href: '/contact/',
           variant: 'primary',
         },
@@ -20,11 +20,11 @@ export const forTenants: PageContent = {
         },
       ],
       visual: 'phone',
-      note: 'The app is in development and is not yet available in any app store.',
+      note: 'Illustration of the Tenant App.',
     },
     {
       kind: 'cards',
-      title: 'What the Tenant App is built to do',
+      title: 'What the Tenant App does',
       columns: 3,
       items: [
         {

@@ -6,7 +6,7 @@ export const pricing: PageContent = {
       kind: 'hero',
       eyebrow: 'Pricing',
       title: 'Contact us for pricing.',
-      lead: 'Pricing has not been decided and is not published. This page explains how plans and the revenue-share model are designed to work, without numbers.',
+      lead: 'Pricing depends on the size of your business. This page explains how plans and the revenue-share model work.',
       ctas: [{ label: 'Contact us', href: '/contact/', variant: 'primary' }],
     },
     {
@@ -32,8 +32,8 @@ export const pricing: PageContent = {
       kind: 'split',
       title: 'The revenue-share model',
       paragraphs: [
-        'In the first release the only billing model is revenue share. A partner agreement sets a revenue share percentage, and the partner’s commission statement is computed from verified subscription payments.',
-        'Whether this is the right model for the business is still an open question on our side, so treat it as the current design, not a final offer.',
+        'The only billing model is revenue share. A partner agreement sets a revenue share percentage, and the partner’s commission statement is computed from verified subscription payments.',
+        'Terms are confirmed in your partner agreement.',
       ],
       bullets: [
         'Subscriptions are paid by bank transfer and verified by a person',
@@ -76,7 +76,7 @@ export const pricing: PageContent = {
     },
     {
       kind: 'cta',
-      title: 'Ask about early access pricing',
+      title: 'Ask about pricing',
       body: 'Send us a short note about your business and we will reply by email.',
       ctas: [{ label: 'Contact us', href: '/contact/', variant: 'primary' }],
     },

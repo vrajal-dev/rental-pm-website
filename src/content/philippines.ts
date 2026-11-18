@@ -9,7 +9,7 @@ export const philippines: PageContent = {
       lead: 'The platform is designed for the Philippines only, with local currency, time, language and paperwork in mind. Rules and tax values are treated as unverified until local counsel confirms them.',
       ctas: [
         {
-          label: 'Request early access',
+          label: 'Book a demo',
           href: '/contact/',
           variant: 'primary',
         },
@@ -53,7 +53,7 @@ export const philippines: PageContent = {
       title: 'BIR-aware documents',
       paragraphs: [
         'The design covers invoice formats with the required fields, VAT and percentage tax computation, and exportable books, with VAT or non-VAT status and withholding tax types in the business’s tax settings.',
-        'BIR Computerized Accounting System accreditation is not in the first release, and all tax rules need review by local tax counsel before launch.',
+        'BIR Computerized Accounting System accreditation is not in the first release, and all tax rules are reviewed with local tax counsel.',
       ],
       visual: 'ledger',
       reverse: true,

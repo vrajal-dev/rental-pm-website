@@ -3,12 +3,12 @@ import { mailtoHref } from '@/lib/mailto';
 import type { PageContent } from './types';
 
 export const contactCopy = {
-  emailCta: 'Email us to request early access',
-  subject: `Early access request: ${site.name}`,
+  emailCta: 'Email us to book a demo',
+  subject: `Demo request: ${site.name}`,
   bodyTemplate: [
     'Hello,',
     '',
-    'I would like to request early access or a demo.',
+    'I would like to book a demo.',
     '',
     'Business name:',
     'Type of business (dormitory, apartment, short stay, other):',
@@ -28,11 +28,11 @@ export const contactCopy = {
   ],
   noFormTitle: 'Why there is no form',
   noFormBody: [
-    'No backend exists yet to receive a web form, and we will not show a form that pretends to send. Email is the honest channel for now.',
+    'We do not show a form that pretends to send. Email goes straight to a person.',
     'Your email is read by a person. We reply as soon as we can, and we do not promise a response time.',
   ],
   placeholderNote:
-    'The email address shown is a placeholder and will be replaced before launch.',
+    'The email address shown is a placeholder and will be replaced.',
 };
 
 export function contactMailto(): string {
@@ -44,17 +44,9 @@ export const contact: PageContent = {
     {
       kind: 'hero',
       eyebrow: 'Contact',
-      title: 'Request early access or a demo.',
-      lead: `${site.name} is in development. The best way to start is a short email telling us about your business.`,
+      title: 'Book a demo.',
+      lead: `The best way to start is a short email telling us about your business. We will arrange a demo.`,
     },
     { kind: 'contact' },
-    {
-      kind: 'callout',
-      title: 'A note about stage',
-      body: [
-        'There is no product to demo to the public yet. A demo request starts a conversation about what is being built and when it could fit your business.',
-      ],
-      tone: 'info',
-    },
   ],
 };

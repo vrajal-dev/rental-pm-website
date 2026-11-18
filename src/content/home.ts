@@ -5,12 +5,12 @@ export const home: PageContent = {
   sections: [
     {
       kind: 'hero',
-      eyebrow: 'In development, for the Philippines',
+      eyebrow: 'Built for the Philippines',
       title: 'Run every room, bed and rent payment from one place.',
-      lead: `${site.name} is a rental management platform being built for Philippine dormitories, apartments and short-stay operators. Take bookings without double booking, verify payments from proof uploads, bill rent on schedule and keep the books straight.`,
+      lead: `${site.name} is a rental management platform for Philippine dormitories, apartments and short-stay operators. Take bookings without double booking, verify payments from proof uploads, bill rent on schedule and keep the books straight.`,
       ctas: [
         {
-          label: 'Request early access',
+          label: 'Book a demo',
           href: '/contact/',
           variant: 'primary',
         },
@@ -21,7 +21,7 @@ export const home: PageContent = {
         },
       ],
       visual: 'dashboard',
-      note: 'Illustration of a planned screen. The product has not launched.',
+      note: 'Illustration of the dashboard.',
     },
     {
       kind: 'cards',
@@ -50,7 +50,7 @@ export const home: PageContent = {
     {
       kind: 'cards',
       title: 'Key capabilities',
-      intro: 'What the platform is built to do, end to end.',
+      intro: 'Everything you need to run rentals, end to end.',
       columns: 4,
       tone: 'tinted',
       items: [
@@ -137,27 +137,18 @@ export const home: PageContent = {
       title: 'A partner program for local businesses',
       paragraphs: [
         'Partners onboard property businesses in a territory, support them, and see a read-only commission statement based on verified subscription payments.',
-        'The program is being designed. Terms are agreed directly, and no numbers are published yet.',
+        'Terms are agreed directly with each partner.',
       ],
       visual: 'ledger',
       link: { label: 'For partners', href: '/for-partners/' },
     },
     {
-      kind: 'callout',
-      title: 'Where we are',
-      body: [
-        `${site.name} is in development. There are no customers and no completed pilots yet, and this site shows no customer quotes or statistics for that reason.`,
-        'Early access means talking with us while the product is still being shaped.',
-      ],
-      tone: 'info',
-    },
-    {
       kind: 'cta',
-      title: 'Talk to us about early access',
-      body: 'Tell us about your property business and what you need. We will reply by email.',
+      title: 'Book a demo',
+      body: 'See the platform on your own properties. Tell us about your business and we will reply by email.',
       ctas: [
         {
-          label: 'Request early access',
+          label: 'Book a demo',
           href: '/contact/',
           variant: 'primary',
         },

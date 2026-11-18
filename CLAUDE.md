@@ -4,13 +4,13 @@ Static marketing website for the rental property management platform (working br
 
 ## Honesty rules (hard)
 
-The product is **not launched**. No customers, no pilots completed. Therefore never write:
+The product is live and the site is a normal marketing site (call to action: "Book a demo"). Do not describe it as in development, unlaunched or "early access". Still never invent proof. Never write:
 
 - testimonials, customer logos or quotes, "trusted by", statistics, percentages, awards, certifications, "bank-grade", uptime or SLA claims, invented prices or commission numbers;
 - claims about 2FA, one-time passcodes, SMS, Google or Apple sign-in, GCash, Maya or any payment gateway. None exist. Payments are recorded and verified by hand from proof uploads.
 - compliance claims. Data Privacy Act alignment is an intention; regulatory values are unverified until counsel confirms; counsel review is pending.
 
-Describe features as what the platform is **built to do**, and say plainly it is in development. Source of truth for features is `rental-pm-api/docs/REQUIREMENTS.md` (M1 to M17). Do not invent features. `src/test/honesty.test.ts` scans all copy and fails on banned words; its allow-list is documented in that file.
+Describe features as what the platform does. Source of truth for features is `rental-pm-api/docs/REQUIREMENTS.md` (M1 to M17). Do not invent features. `src/test/honesty.test.ts` scans all copy and fails on banned words; its allow-list is documented in that file.
 
 Legal pages (`/privacy`, `/terms`) are clearly marked DRAFT placeholders for counsel.
 

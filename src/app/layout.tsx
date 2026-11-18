@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
-import { StageBanner } from '@/components/StageBanner';
 import { site } from '@/config/site';
 import { ui } from '@/content/ui';
 import './globals.css';
@@ -44,7 +43,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         >
           {ui.skipLink}
         </a>
-        <StageBanner />
         <Header />
         <main id="main" tabIndex={-1}>
           {children}

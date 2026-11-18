@@ -7,10 +7,10 @@ export const howItWorks: PageContent = {
       kind: 'hero',
       eyebrow: 'How it works',
       title: 'From onboarding to move-out, one flow.',
-      lead: `This is the journey ${site.name} is designed around, from a partner signing up a property business to a tenant moving out and getting a settlement.`,
+      lead: `This is the journey ${site.name} follows, from a partner signing up a property business to a tenant moving out and getting a settlement.`,
       ctas: [
         {
-          label: 'Request early access',
+          label: 'Book a demo',
           href: '/contact/',
           variant: 'primary',
         },
@@ -100,20 +100,12 @@ export const howItWorks: PageContent = {
       link: { label: 'See all features', href: '/features/' },
     },
     {
-      kind: 'callout',
-      title: 'A note on stage',
-      body: [
-        'This describes the designed flow. The platform is in development and has not launched, so some steps are not yet available to try.',
-      ],
-      tone: 'info',
-    },
-    {
       kind: 'cta',
-      title: 'Want to follow along?',
-      body: 'Request early access and tell us which step matters most to you.',
+      title: 'Want to see the flow?',
+      body: 'Book a demo and tell us which step matters most to you.',
       ctas: [
         {
-          label: 'Request early access',
+          label: 'Book a demo',
           href: '/contact/',
           variant: 'primary',
         },

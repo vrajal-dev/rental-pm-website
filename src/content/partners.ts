@@ -6,7 +6,7 @@ export const forPartners: PageContent = {
       kind: 'hero',
       eyebrow: 'For partners',
       title: 'Bring property businesses onto the platform.',
-      lead: 'Partners onboard and support dormitories, apartments and short-stay operators in a territory. The partner program is being designed, and its terms are agreed directly.',
+      lead: 'Partners onboard and support dormitories, apartments and short-stay operators in a territory. Partner terms are agreed directly.',
       ctas: [
         {
           label: 'Talk to us about partnering',

@@ -21,7 +21,7 @@ export const routes: RouteDef[] = [
     label: 'Home',
     title: 'Rental property management for the Philippines',
     description:
-      'Software being built for Philippine dormitories, apartments and short-stay operators: bookings without double booking, payment proof verification, billing, inspections and books.',
+      'Software for Philippine dormitories, apartments and short-stay operators: bookings without double booking, payment proof verification, billing, inspections and books.',
     nav: 'none',
     priority: 1,
   },
@@ -30,7 +30,7 @@ export const routes: RouteDef[] = [
     label: 'Features',
     title: 'Features overview',
     description:
-      'What the platform is built to do: property tree, rate plans, bookings, payments by proof, billing, contracts, inspections, maintenance, messaging, reports and books.',
+      'What the platform does: property tree, rate plans, bookings, payments by proof, billing, contracts, inspections, maintenance, messaging, reports and books.',
     nav: 'primary',
     priority: 0.9,
   },
@@ -78,7 +78,7 @@ export const routes: RouteDef[] = [
     label: 'For tenants',
     title: 'For tenants: the renter app',
     description:
-      'The mobile app being built for renters: request a booking, see bank details and QR codes, upload payment proof, sign contracts, raise requests and message the business.',
+      'The mobile app for renters: request a booking, see bank details and QR codes, upload payment proof, sign contracts, raise requests and message the business.',
     nav: 'primary',
     priority: 0.8,
   },
@@ -87,7 +87,7 @@ export const routes: RouteDef[] = [
     label: 'For partners',
     title: 'For partners: the partner program',
     description:
-      'How partners onboard property businesses, hold territory rights and see commission statements. The partner program is being designed; terms are agreed directly.',
+      'How partners onboard property businesses, hold territory rights and see commission statements. Terms are agreed directly.',
     nav: 'primary',
     priority: 0.8,
   },
@@ -96,7 +96,7 @@ export const routes: RouteDef[] = [
     label: 'Pricing',
     title: 'Pricing: contact us',
     description:
-      'Pricing is not published yet. Learn how plans and the revenue-share model are designed to work, and contact us for details.',
+      'Learn how plans and the revenue-share model work, and contact us for pricing.',
     nav: 'primary',
     priority: 0.8,
   },
@@ -123,7 +123,7 @@ export const routes: RouteDef[] = [
     label: 'About',
     title: 'About the project',
     description:
-      'Why this platform is being built, what stage it is at, and how we describe it honestly: in development, not yet launched, no customers yet.',
+      'Why we built this platform for Philippine property businesses, and how we describe it.',
     nav: 'company',
     priority: 0.5,
   },
@@ -132,16 +132,16 @@ export const routes: RouteDef[] = [
     label: 'FAQ',
     title: 'Frequently asked questions',
     description:
-      'Straight answers about the product stage, payments, languages, data, partners and early access.',
+      'Straight answers about the product, payments, languages, data, partners and demos.',
     nav: 'company',
     priority: 0.6,
   },
   {
     path: '/contact/',
     label: 'Contact',
-    title: 'Request early access or a demo',
+    title: 'Book a demo',
     description:
-      'Email us to request early access or a conversation about a demo. There is no web form yet; the page tells you what to include.',
+      'Email us to book a demo. The page tells you what to include.',
     nav: 'company',
     priority: 0.7,
   },

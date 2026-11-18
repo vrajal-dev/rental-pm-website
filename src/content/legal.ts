@@ -5,7 +5,7 @@ const draftNotice: Section = {
   kind: 'callout',
   title: 'DRAFT: not final, not legal advice',
   body: [
-    'This text is a placeholder. It must be reviewed and rewritten by qualified counsel before the platform launches. Do not rely on it.',
+    'This text is a placeholder. It must be reviewed and rewritten by qualified counsel before it is relied on. Do not rely on it.',
   ],
   tone: 'warning',
 };
@@ -32,7 +32,7 @@ export const privacy: PageContent = {
         {
           heading: 'The platform itself',
           paragraphs: [
-            'The platform is not launched. Its own privacy notice, consent records and data processing agreement are to be written with counsel in line with the Philippine Data Privacy Act. [Placeholder.]',
+            'A dedicated privacy notice, consent records and data processing agreement are to be written with counsel in line with the Philippine Data Privacy Act. [Placeholder.]',
           ],
         },
         {
@@ -65,7 +65,7 @@ export const terms: PageContent = {
         {
           heading: 'About this site',
           paragraphs: [
-            'This site describes a product that is in development. Descriptions are plans, not promises, and features may change or never ship.',
+            'Descriptions on this site are general and features may change.',
           ],
         },
         {

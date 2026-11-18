@@ -1,6 +1,6 @@
 import type { PageContent } from './types';
 
-const early = { label: 'Request early access', href: '/contact/' };
+const early = { label: 'Book a demo', href: '/contact/' };
 
 export const features: PageContent = {
   sections: [
@@ -8,7 +8,7 @@ export const features: PageContent = {
       kind: 'hero',
       eyebrow: 'Features',
       title: 'Everything a rental business does, in one platform.',
-      lead: 'This is what the platform is built to do, grouped by area. Features are in development and may change before launch.',
+      lead: 'Everything the platform does, grouped by area.',
       ctas: [
         { ...early, variant: 'primary' },
         { label: 'How it works', href: '/how-it-works/', variant: 'secondary' },
@@ -225,7 +225,7 @@ export const features: PageContent = {
       title: 'Not in the first release',
       body: [
         'No payment gateway: payments are recorded and verified by people. Philippines only, in pesos, in English and Filipino.',
-        'Not planned for the first release: company tenants, a public API, smart locks, waitlists, multi-currency, other countries and BIR Computerized Accounting System accreditation.',
+        'Not included: company tenants, a public API, smart locks, waitlists, multi-currency, other countries and BIR Computerized Accounting System accreditation.',
       ],
       tone: 'warning',
     },
@@ -244,7 +244,7 @@ export const dormitories: PageContent = {
       kind: 'hero',
       eyebrow: 'Features / Dormitories',
       title: 'Dormitories and bedspaces, bed by bed.',
-      lead: 'Shared rooms, mixed rules and monthly rent are the daily work of a dormitory or boarding house. This is how the platform is being built to handle them.',
+      lead: 'Shared rooms, mixed rules and monthly rent are the daily work of a dormitory or boarding house. This is how the platform handles them.',
       ctas: [
         { ...early, variant: 'primary' },
         { label: 'All features', href: '/features/', variant: 'secondary' },
@@ -328,7 +328,7 @@ export const apartments: PageContent = {
       kind: 'hero',
       eyebrow: 'Features / Apartments',
       title: 'Apartments and long-term rentals, from contract to move-out.',
-      lead: 'Leases, deposits, monthly rent, renewals and a careful move-out. This is how the platform is being built to support landlords of apartments and condominium units.',
+      lead: 'Leases, deposits, monthly rent, renewals and a careful move-out. This is how the platform supports landlords of apartments and condominium units.',
       ctas: [
         { ...early, variant: 'primary' },
         { label: 'All features', href: '/features/', variant: 'secondary' },
@@ -422,7 +422,7 @@ export const shortStays: PageContent = {
       kind: 'hero',
       eyebrow: 'Features / Short stays',
       title: 'Short stays, with a calendar that always shows what is free.',
-      lead: 'Apartelles, guesthouses, hostels and transient houses need nightly rates, quick answers and no double bookings. This is how the platform is being built to help.',
+      lead: 'Apartelles, guesthouses, hostels and transient houses need nightly rates, quick answers and no double bookings. This is how the platform helps.',
       ctas: [
         { ...early, variant: 'primary' },
         { label: 'All features', href: '/features/', variant: 'secondary' },

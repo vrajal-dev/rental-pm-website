@@ -118,9 +118,10 @@ describe('honesty rules', () => {
     expect(text).toMatch(/counsel/i);
   });
 
-  it('says the product has not launched, on the home page copy and the banner', () => {
-    expect(strings(home).join(' ')).toMatch(/in development/i);
-    expect(ui.ui.stageBanner).toMatch(/has not launched/i);
+  it('does not describe the product as unlaunched or in development', () => {
+    expect(all.join(' ')).not.toMatch(
+      /in development|not (yet )?launched|early access|being built/i,
+    );
   });
 
   it('publishes no prices on the pricing page', () => {
