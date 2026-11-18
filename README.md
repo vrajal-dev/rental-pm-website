@@ -57,6 +57,14 @@ No fake testimonials, customer logos, statistics, "trusted by", awards, certific
 - On other hosts (nginx, S3 and CloudFront), copy the same headers from `out/_headers` into the host configuration.
 - The CSP was generated from the built HTML; verify it in the browser console on the first deploy.
 
+### Vercel
+
+`vercel.json` configures the static export (`pnpm build`, output `out/`, trailing slashes) and sets the basic security headers. Vercel does not read `_headers`, so the per-page CSP from `scripts/csp-headers.mjs` is **not applied on Vercel yet**; adding it means generating `headers` entries from `out/_headers`.
+
+**`vercel.json` also sends `X-Robots-Tag: noindex, nofollow` on purpose.** The domain, contact email, legal pages and the trademark check are still pending, so search engines must not index the site yet. Remove that header from `vercel.json` (and review `robots.txt`) when the site is ready to be found.
+
+Steps: in Vercel choose Add New, Project, import `vrajal-dev/rental-pm-website`, keep the detected settings (they come from `vercel.json`), Deploy. Add the custom domain under Project Settings, Domains, then set `site.url` in `src/config/site.ts`.
+
 The site sets no cookies and loads no third-party scripts, fonts, images or analytics.
 
 ## Dependencies (exact versions, same as `rental-pm-admin`)
